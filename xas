@@ -1,0 +1,24 @@
+                },
+                o = [],
+                r = n("79fa"),
+                s = {
+                    name: "grid-col-span-editor",
+                    mixins: [r.b],
+                    props: {
+                        designer: Object,
+                        selectedWidget: Object,
+                        optionModel: Object
+                    },
+                    computed: {
+                        formConfig: function() {
+                            return this.designer.formConfig;
+                        }
+                    }
+                },
+                a = s,
+                l = n("2877"),
+                c = Object(l.a)(a, i, o, false, null, "163e0823", null);
+            t.default = c.exports;
+        }
+    })["default"];
+}));
